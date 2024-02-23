@@ -1,1 +1,1 @@
-print("Hello, Group One")
+print("Hello, Group One\nWhat are we doing today")

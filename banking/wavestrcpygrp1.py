@@ -1,3 +1,5 @@
+import random
+
 def main():
     print("Welcome, what would you like to do?")
 
@@ -25,7 +27,7 @@ def main():
             ... 
         elif choice == '6' or choice == 'Bills & Utilities':
             # Write your code here
-            ...
+            bills_util()
         elif choice == '7' or choice == 'Quit':
             print("👍 Exit successful\n")
             break
@@ -33,12 +35,18 @@ def main():
             print("\n❌ Invalid choice - Enter a number from 1 - 7\n")
 
 def open_account():
-    print("PLEASE PROVIDE YOUR INFO TO BEGIN")
-    full_name = input("Full name: ")
-    email = input("Email: ")
-    password = input("Password: ")
-    print("\n✅ Account created successful")
-    print(f"{full_name}\n{email}\n")
+    print(f"you've selected to open an account")
+    print("Kindly fill your details below!!!")
+    firstname = str(input("\nInput your First_Name Here >> ")).title()
+    lastname = str(input("Input your Last_Name Here >> ")).title()
+    othername = str(input("Input your Other_Name Here >> ")).title()
+    email = str(input("Input your Email Here >> "))
+    Address = str(input("Input your Address Here >> "))
+
+    accountnum = random.randrange(0000000000,9999999999)
+
+    print(f"\nDear {firstname} {lastname} {othername}, your account has been successfully created, \nYour account number is {accountnum} \nThanks for joining the family")
+
 
 def transfer():
     while True:

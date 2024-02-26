@@ -42,7 +42,7 @@ def open_account():
 
 def transfer():
     while True:
-        print("RECIPIENT ACCOUNT")
+        print("RECIPIENT ACCOUNT!")
         acc = input("Enter 10 digit number: ")
         if len(acc) != 10:
             print("\n❌ Number must be exactly 10 digit\n")

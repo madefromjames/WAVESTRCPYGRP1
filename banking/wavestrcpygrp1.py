@@ -54,7 +54,7 @@ def transfer():
             if not amount.isdigit():
                 print("❌ Amount must be a number")
                 continue
-            print(f"\n$✅ {amount} sent successful\n")
+            print(f"\n$✅ {amount} Sent successful\n")
             break
         break
 

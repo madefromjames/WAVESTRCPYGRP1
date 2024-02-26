@@ -30,7 +30,7 @@ def main():
             print("👍 Exit successful\n")
             break
         else:
-            print("\n❌ Invalid choice - Enter a number from 1 - 7 \n")
+            print("\n❌ Invalid choice - Enter a number from 1 - 7\n")
 
 def open_account():
     print("PLEASE PROVIDE YOUR INFO TO BEGIN")

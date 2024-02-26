@@ -52,7 +52,7 @@ def transfer():
         while True:
             amount = input("Amount: ")
             if not amount.isdigit():
-                print("❌ Amount must be a number")
+                print("❌ Amount must be a digit")
                 continue
             print(f"\n$✅ {amount} Sent successful\n")
             break

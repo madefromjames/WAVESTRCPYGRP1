@@ -24,7 +24,10 @@ def main():
             internet()
         elif choice == '5' or choice == 'Balance':
             # Write your code here
-            print("Your balance is $0.00")
+            print("Enter your phone number & password to view balance")
+            phone = input("Phone number: ")
+            password = input("Password: ")
+            print("Your balance is 0.00")
         elif choice == '6' or choice == 'Bills & Utilities':
             # Write your code here
             bills_util()
